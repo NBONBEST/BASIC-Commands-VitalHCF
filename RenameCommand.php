@@ -1,9 +1,9 @@
 <?php
 
-namespace vLiqkz\commands;
+namespace VitalHCF\commands;
 
-use vLiqkz\Loader;
-use vLiqkz\player\Player;
+use VitalHCFz\Loader;
+use VitalHCF\player\Player;
 
 use pocketmine\item\Tool;
 use pocketmine\utils\TextFormat as TE;
