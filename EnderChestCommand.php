@@ -5,7 +5,7 @@ namespace VitalHCF\commands;
 use VitalCHF\Loader;
 use VitalHCF\player\Player;
 use libs\muqsit\invmenu\transaction\InvMenuTransactionResult;
-use VitalCF\API\InvMenu\type\EnderChestInventory;
+use VitalHCF\API\InvMenu\type\EnderChestInventory;
 
 use pocketmine\utils\TextFormat as TE;
 use pocketmine\command\CommandSender;
