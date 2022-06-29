@@ -2,7 +2,7 @@
 
 namespace VitalHCF\commands;
 
-use VitalHCFz\Loader;
+use VitalHCF\Loader;
 use VitalHCF\player\Player;
 
 use pocketmine\item\Tool;
