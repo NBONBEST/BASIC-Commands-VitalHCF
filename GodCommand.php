@@ -7,7 +7,7 @@ use VitalHCF\player\Player;
 
 use pocketmine\utils\TextFormat as TE;
 use pocketmine\command\CommandSender;
-use pocketmine\command\defaults\VanillaCommamd;
+use pocketmine\command\defaults\VanillaCommand;
 use pocketmine\permission\Permisions;
 
 class GodCommand extends VanillaCommand {
