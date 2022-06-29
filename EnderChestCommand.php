@@ -1,11 +1,11 @@
 <?php
 
-namespace vLiqkz\commands;
+namespace VitalHCF\commands;
 
-use vLiqkz\Loader;
-use vLiqkz\player\Player;
+use VitalCHF\Loader;
+use VitalHCF\player\Player;
 use libs\muqsit\invmenu\transaction\InvMenuTransactionResult;
-use vLiqkz\API\InvMenu\type\EnderChestInventory;
+use VitalHCF\API\InvMenu\type\EnderChestInventory;
 
 use pocketmine\utils\TextFormat as TE;
 use pocketmine\command\CommandSender;
