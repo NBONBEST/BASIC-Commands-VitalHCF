@@ -3,7 +3,7 @@
 namespace VitalHCF\commands;
 
 use VitalHCF\Loader;
-use VitalHCF\player\Player;
+use VitalHcF\player\Player;
 
 use pocketmine\item\Tool;
 use pocketmine\utils\TextFormat as TE;
