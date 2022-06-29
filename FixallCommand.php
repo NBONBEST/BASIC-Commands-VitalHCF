@@ -1,9 +1,9 @@
 <?php
 
-namespace vLiqkz\commands;
+namespace VitalHCF\commands;
 
-use vLiqkz\Loader;
-use vLiqkz\player\Player;
+use VitalHCF\Loader;
+use VitalHCF\player\Player;
 
 use pocketmine\item\{Item, Armor, Tool};
 
