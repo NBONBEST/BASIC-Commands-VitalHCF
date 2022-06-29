@@ -23,7 +23,7 @@ class FeedCommand extends VanillaCommand {
         $this->setPermission("feed.command.use");
     }
 
-    /**
+    /*
 	 * @param CommandSender $sender
 	 * @param String $label
 	 * @param Array $args
