@@ -26,8 +26,8 @@ class GodCommand extends VanillaCommand {
      * @return void
 	 */
 	public function execute(CommandSender $sender, String $label, Array $args) : void {
-		if(!$sender->hasPermission(DefaultPermissions)){
-			$sender->sendMessage(TE::RED."§l§7[§6!§7]§7 -§r§7 You have not permissions to use this command");
+		if(!$sender->hasPermission(DefaultPermissions::ROOT_OPERATOR)){
+			$sender->sendMessage(TE::RED."You have not permissions to use this command");
 			return;
 		}
 		if($sender->isGodMode()){
