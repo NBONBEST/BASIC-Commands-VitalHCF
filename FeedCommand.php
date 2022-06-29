@@ -1,6 +1,6 @@
 <?php
 
-namespace VitalhCF\commands;
+namespace VitalHCF\commands;
 
 use VitalHCF\Loader;
 use VitalHCf\player\Player;
