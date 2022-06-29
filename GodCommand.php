@@ -6,9 +6,11 @@ use VitalHCF\Loader;
 use VitalHCF\player\Player;
 
 use pocketmine\utils\TextFormat as TE;
-use pocketmine\command\{CommandSender, Command};
+use pocketmine\command\CommandSender;
+use pocketmine\command\defaults\VanillaCommamd;
+use pocketmine\permission\Permisions;
 
-class GodCommand extends Command {
+class GodCommand extends VanillaCommand {
 	
 	/**
 	 * GodCommand Constructor.
@@ -24,7 +26,7 @@ class GodCommand extends Command {
      * @return void
 	 */
 	public function execute(CommandSender $sender, String $label, Array $args) : void {
-		if(!$sender->isOp()){
+		if(!$sender->hasPermission(DefaultPermissions)){
 			$sender->sendMessage(TE::RED."§l§7[§6!§7]§7 -§r§7 You have not permissions to use this command");
 			return;
 		}
