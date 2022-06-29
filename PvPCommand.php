@@ -1,9 +1,9 @@
 <?php
 
-namespace vLiqkz\commands;
+namespace VitalHCF\commands;
 
-use vLiqkz\Loader;
-use vLiqkz\player\{Player, PlayerBase};
+use VitalHCF\Loader;
+use VitalHCF\player\{Player, PlayerBase};
 
 use pocketmine\command\CommandSender;
 use pocketmine\command\defaults\VanillaCommand;
