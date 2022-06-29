@@ -16,7 +16,7 @@ use pocketmine\item\ItemFactory;
 class FeedCommand extends VanillaCommand {
 
     /**
-     * FeedCommand Constructor.
+     * FeedCommand Constructor
      */
     public function __construct(){
         parent::__construct("feed", "Can fill your food bar to 100%", "feed");
